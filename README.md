@@ -3,3 +3,4 @@ fschool is my projects to create an operating system that capable of operating a
 
 the original state is make it as arch based distros (original plan), with a using window manager compositor like hyprland.
 
+Fschool OS developed for best use of OSINT (Open Source Intelligence)
