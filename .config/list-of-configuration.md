@@ -1,0 +1,4 @@
+
+aichat
+hypr
+waybar
