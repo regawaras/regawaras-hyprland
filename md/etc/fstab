@@ -1,0 +1,12 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+
+#UUID=709d28db-23da-482a-8cdc-1eeefa844c7b /mnt/ubuntu ext4 rw,relatime  0  2
+
+#UUID=6EA4DC16A4DBDEA1 /mnt/windows ntfs-3g rw,relatime  0  2
+
+#UUID=77E3-4FCD /mnt/SONIX vfat rw,relatime 0 2
+
+#UUID=1350a563-9728-439c-b600-908518f063c9 /mnt/RX7/RX7EXT4 ext4 rw,relatime 0 2
