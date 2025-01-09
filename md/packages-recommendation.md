@@ -1,7 +1,7 @@
 additional packages
 
 ---
-sudo pacman -S fastfetch ffmpeg nvim krita obsidian firefox ranger
+sudo pacman -S dhcpcd fastfetch ffmpeg nvim krita obsidian firefox ranger
 ---
 
 # additional packages
