@@ -139,7 +139,7 @@ background-color: #008800;
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
 background-color: #FF0000;
-color: #ffffff;
+color: #000000;
 animation-name: blink;
 animation-duration: 0.5s;
 animation-timing-function: steps(50);
