@@ -1,6 +1,6 @@
-model: groq
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+
+model: gemini:gemini-2.0-flash
 clients:
-- type: openai-compatible
-  name: groq
-  api_base: https://api.groq.com/openai/v1
-  api_key: 
+- type: gemini
+  api_key: AIzaSyBmsRRML3i5Pykdun1dFSIp87mLpoJ1LyY
