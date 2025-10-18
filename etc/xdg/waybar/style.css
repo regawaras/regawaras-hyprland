@@ -1,16 +1,14 @@
 * {
 /* `otf-font-awesome` is required to be installed for icons */
 font-family: Source Code Pro;
-font-size: 14px;
+font-size: 15px;
 }
 
 window#waybar {
     background-color: #000000;
-    border-bottom: 1px solid #000000;
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .0s;
-    opacity: 0.73;
+    border-bottom: 0px solid #000000;
+    color: #555555;
+    opacity: 0.8;
 }
 
 window#waybar.hidden {
@@ -52,21 +50,25 @@ button:hover {
 #pulseaudio:hover {
 background-color: #a37800;
 }
-
 #workspaces button {
 padding: 0 5px;
 background-color: transparent;
-color: #00FF00;
+color: #00ff00;
 }
 
 #workspaces button:hover {
-background: #005500;
-color: #FFFF00;
+background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+background-color: #64727D;
+box-shadow: inset 0 -3px #FF0000;
 }
 
 #workspaces button.active {
-background: #005500;
-color: #FFFF00;
+background-color: #005500; /* Example: Sea Green background */
+color: #ffff00; /* Example: White text color */
+padding: 0 10px; /* Example: Padding */
 }
 
 #workspaces button.urgent {
@@ -101,7 +103,7 @@ color: #ffffff;
 
 #window,
 #workspaces {
-margin: 0 0px;
+margin: 0 4px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -139,7 +141,7 @@ background-color: #008800;
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
 background-color: #FF0000;
-color: #000000;
+color: #ffffff;
 animation-name: blink;
 animation-duration: 0.5s;
 animation-timing-function: steps(50);
@@ -190,8 +192,7 @@ color: #00FF00;
 }
 
 #network {
-background-color: #000000;
-color: #00FF00;
+background-color: #2980b9;
 }
 
 #network.disconnected {
@@ -199,18 +200,18 @@ background-color: #f53c3c;
 }
 
 #pulseaudio {
-background-color: #000000;
-color: #00FF00;
+background-color: #f1c40f;
+color: #000000;
 }
 
 #pulseaudio.muted {
-background-color: #000000;
-color: #00FF00;
+background-color: #90b1b1;
+color: #2a5c45;
 }
 
 #wireplumber {
-background-color: #000000;
-color: #00FF00;
+background-color: #fff0f5;
+color: #000000;
 }
 
 #wireplumber.muted {
@@ -232,13 +233,11 @@ background-color: #ffa000;
 }
 
 #temperature {
-background-color: #001100;
-color: #00FF00;
+background-color: #f0932b;
 }
 
 #temperature.critical {
-background-color: #FF0000;
-color: #FFFF00;
+background-color: #eb4d4b;
 }
 
 #tray {
@@ -255,13 +254,12 @@ background-color: #eb4d4b;
 }
 
 #idle_inhibitor {
-background-color: #000000;
-color: #005500;
+background-color: #2d3436;
 }
 
 #idle_inhibitor.activated {
-background-color: #000000;
-color: #00FF00;
+background-color: #ecf0f1;
+color: #2d3436;
 }
 
 #mpd {
@@ -327,7 +325,7 @@ background-color: #cf5700;
 }
 
 #privacy-item.audio-in {
-background-color: #000000;
+background-color: #1ca000;
 }
 
 #privacy-item.audio-out {
